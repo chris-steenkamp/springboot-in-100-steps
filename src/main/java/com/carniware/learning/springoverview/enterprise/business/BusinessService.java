@@ -14,6 +14,6 @@ public class BusinessService {
 
     public long calculateSum() {
         List<Integer> data = service.getData();
-        return data.stream().reduce(Integer::sum).get();
+        return data.stream().reduce((t, u) -> Integer.sum(t, u)).get();
     }
 }
