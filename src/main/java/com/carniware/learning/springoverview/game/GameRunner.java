@@ -1,4 +1,4 @@
-package com.carniware.learning.game;
+package com.carniware.learning.springoverview.game;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

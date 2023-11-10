@@ -1,4 +1,4 @@
-package com.carniware.learning.game;
+package com.carniware.learning.springoverview.game;
 
 public interface GamingConsole {
     String name();

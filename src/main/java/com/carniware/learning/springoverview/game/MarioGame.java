@@ -1,8 +1,11 @@
-package com.carniware.learning.game;
+package com.carniware.learning.springoverview.game;
 
-public class SuperContraGame implements GamingConsole {
+import org.springframework.stereotype.Component;
+
+@Component
+public class MarioGame implements GamingConsole {
     public String name() {
-        return "SuperContraGame";
+        return "MarioGame";
     }
 
     public void up() {

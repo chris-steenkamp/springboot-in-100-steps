@@ -1,11 +1,11 @@
-package com.carniware.learning;
+package com.carniware.learning.springoverview;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
-import com.carniware.learning.enterprise.web.MyWebController;
-import com.carniware.learning.game.GameRunner;
+import com.carniware.learning.springoverview.enterprise.web.MyWebController;
+import com.carniware.learning.springoverview.game.GameRunner;
 
 @SpringBootApplication
 public class LearningApplication {

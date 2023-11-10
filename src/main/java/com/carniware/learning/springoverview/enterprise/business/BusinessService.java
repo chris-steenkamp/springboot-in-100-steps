@@ -1,11 +1,11 @@
-package com.carniware.learning.enterprise.business;
+package com.carniware.learning.springoverview.enterprise.business;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.carniware.learning.enterprise.data.DataService;
+import com.carniware.learning.springoverview.enterprise.data.DataService;
 
 @Component
 public class BusinessService {

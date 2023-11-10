@@ -1,4 +1,4 @@
-package com.carniware.learning;
+package com.carniware.learning.springoverview;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
