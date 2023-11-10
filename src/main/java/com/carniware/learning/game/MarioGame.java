@@ -1,6 +1,10 @@
 package com.carniware.learning.game;
 
-public class MarioGame {
+public class MarioGame implements GamingConsole {
+    public String name() {
+        return "MarioGame";
+    }
+
     public void up() {
         System.out.println("up");
     }

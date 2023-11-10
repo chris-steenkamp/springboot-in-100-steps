@@ -2,13 +2,15 @@ package com.carniware.learning.game;
 
 public class GameRunner {
 
-    private MarioGame game;
+    private GamingConsole game;
 
-    public GameRunner(MarioGame game) {
+    public GameRunner(GamingConsole game) {
         this.game = game;
     }
 
     public void run() {
+        System.out.println(game.name());
+        
         game.up();
         game.down();
         game.left();
