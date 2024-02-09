@@ -1,4 +1,4 @@
-package com.carniware.learning.lesson1.domains;
+package com.carniware.learning.app.section1.domains;
 
 public class Course {
 

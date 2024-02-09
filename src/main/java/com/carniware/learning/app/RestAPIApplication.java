@@ -1,4 +1,4 @@
-package com.carniware.learning.lesson1;
+package com.carniware.learning.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package com.carniware.learning.lesson1.controllers;
+package com.carniware.learning.app.section1.controllers;
 
 import java.util.Arrays;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.carniware.learning.lesson1.domains.Course;
+import com.carniware.learning.app.section1.domains.Course;
 
 @RestController
 public class CourseController {

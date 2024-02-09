@@ -1,4 +1,4 @@
-package com.carniware.learning.lesson1.configurations;
+package com.carniware.learning.app.section1.configurations;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
