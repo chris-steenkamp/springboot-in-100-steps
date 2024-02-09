@@ -1,6 +1,10 @@
 <html>
-    <head><h1>Login page for ${name}</h1></head>
+    <head><h1>Login page</h1></head>
     <body>
-        <button>Login</button>
+        <form method="post">
+            Name: <input type="text" name="name">
+            Password: <input type="password" name="password">
+            <input type="submit">
+        </form>
     </body>
 </html>
