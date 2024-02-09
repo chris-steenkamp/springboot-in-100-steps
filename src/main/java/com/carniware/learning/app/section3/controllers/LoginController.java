@@ -20,13 +20,14 @@ public class LoginController {
     }
 
     @RequestMapping(value = "/login", method = RequestMethod.POST)
-    public String welcome(@RequestParam String name, @RequestParam String password, ModelMap model) {
+    public String welcome(@RequestParam String username, @RequestParam String password, ModelMap model) {
 
-        if (auth.authenticate(name, password)) {
-            model.put("name", name);
+        if (auth.authenticate(username, password)) {
+            model.put("username", username);
             return "welcome";
         }
 
+        logger.info("Login error for user " + username);
         model.put("errorMessage", "Unable to login. Please try again.");
         return "login";
     }
